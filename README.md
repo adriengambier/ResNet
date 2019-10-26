@@ -13,9 +13,10 @@ ResNet with 32 layers showed similar results with this implementation, the accur
 The model was trained once and closer results could be obtained after multiple training. <br>
 Note that this implementation uses projection shortcuts to increase dimensions, meaning 1x1 convolution on the shortcut connection. 
 
-| # Layers | Paper (%error)  | This implementation (%error)  |
-| -------- | --------------- | ----------------------------- |
-| 32       | 7.51            | 7.78                          |
+| # Layers | # Params   |Paper (%error)  | This implementation (%error)  |
+| -------- | ---------- | -------------- | ----------------------------- |
+| 20       | 0.27M      | 8.75           | 8.66                          |
+| 32       | 0.46M      | 7.51           | 7.78                          |
 
 # Usage
 
